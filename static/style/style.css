@@ -1,0 +1,61 @@
+.back {
+    background-color: #FFEFD5;
+}
+
+.dash1 {
+    background-color: #B0C4DE;
+    margin :auto
+    border-width: 10px 
+    border-color: #778899;
+    border-style: inset;
+
+}
+
+.dash2 {
+    background-color: #4682B4;
+    border-width: 5px;
+    border-color: #C0C0C0;
+    border-style: solid;
+}
+
+#disp {
+    background-color: #FFF5EE;
+    border-width: 5px;
+    border-color: #C0C0C0;
+    border-style: solid;
+}
+
+#button {
+    background-color: #778899;
+    border-style: outset;
+    text-align: center;
+    font-size: 20px;
+}
+
+.h-select {
+    text-align: center;
+}
+
+#meta1 {
+    background-color: #FFEFD5;
+    border-style: solid;
+    border-color: #778899;
+    text-align: center;
+    height: 45px;
+}
+
+#meta2 {
+    Background-color: #F5F5F5;
+    border-style: solid;
+    border-color: #778899;
+    text-align: left;
+}
+
+.list1 {
+    font-size: 20px;
+}
+
+.text1 {
+    font-size: 20px;
+    text-decoration: underline;
+}

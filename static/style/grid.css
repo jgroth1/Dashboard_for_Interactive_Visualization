@@ -1,0 +1,101 @@
+.container {
+    display: grid;
+    width: 1300px;
+    height: 700px;
+}
+
+.selector {
+grid-row-start: 1;
+grid-row-end: 20;
+grid-column-start: 1;
+grid-column-end: 2;
+display: grid;
+}
+
+.displayArea {
+grid-row-start: 1;
+grid-row-end: 20;
+grid-column-start: 2;
+grid-column-end: 20;
+display: grid;
+grid-template-areas: 
+    'pie guage'
+    'bubble bubble';
+}
+
+.nullColumn {
+    grid-row-start: 1;
+    grid-row-end: 20;
+    grid-column-start: 20;
+    grid-column-end: 21;
+}
+
+.form1 {
+    grid-row-start: 3;
+    grid-row-end: 10;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: grid;
+}
+
+.title {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.bottom {
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.selection {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 30px;
+}
+
+.selectButton {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.title2 {
+    grid-row-start: 19;
+    grid-row-end: 20;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+
+.metaList {
+    grid-row-start: 20;
+    grid-row-end: 30;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+
+.pie {
+    grid-area: pie;
+    border-style: solid;
+    border-color: #778899;
+}
+
+.guage {
+   grid-area: guage;
+   border-style: solid;
+   border-color: #778899;
+}
+
+.bubble {
+   grid-area: bubble; 
+   border-style: solid;
+}
